@@ -4,10 +4,9 @@ package com.app.flyapp;
 import java.text.DecimalFormat;
 
 public class Flights {
-    public  String departureStation, arrivalStation, flightCarrier, flightNumber;
-    public DecimalFormat price;
+    public  String departureStation, arrivalStation, flightCarrier, flightNumber, price;
 
-    public Flights(String departureStation, String arrivalStation, String flightCarrier, String flightNumber, DecimalFormat price) {
+    public Flights(String departureStation, String arrivalStation, String flightCarrier, String flightNumber, String price) {
         this.departureStation = departureStation;
         this.arrivalStation = arrivalStation;
         this.flightCarrier = flightCarrier;
@@ -47,11 +46,11 @@ public class Flights {
         this.flightNumber = flightNumber;
     }
 
-    public DecimalFormat getprice() {
+    public String getprice() {
         return price;
     }
 
-    public void setprice(DecimalFormat price) {
+    public void setprice(String price) {
         this.price = price;
     }
 }

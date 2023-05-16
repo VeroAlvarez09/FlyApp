@@ -35,8 +35,5 @@ public class viewFligths extends AppCompatActivity {
         flightNumberTextView.setText(flightNumber);
         priceTextView.setText(price);
 
-
-
-
     }
 }
